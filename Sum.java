@@ -1,7 +1,9 @@
 public class Main{
+    public static int add(int a,int b){
+        int add=a+b;
+        return add;
+    }
     public static void main(String[] args) {
-        int a=5;
-        int b=3;
-        System.out.print(a+b);
+        System.out.print(add(3,5));
     }
 }
